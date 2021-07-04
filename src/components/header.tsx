@@ -6,9 +6,9 @@ const header: React.FC = () => {
 		'https://www.moovin.com.br/wp-content/uploads/2020/12/logo@2x-min.png'
 
 	return (
-		<div className='header'>
+		<header>
 			<img alt='Logo da Moovin' src={logoMoovin} />
-		</div>
+		</header>
 	)
 }
 
