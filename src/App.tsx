@@ -1,14 +1,12 @@
 import React from 'react'
 import './styles/App.scss'
+import Header from './components/header'
 
 const App: React.FC = () => {
-	const logoMoovin =
-		'https://cdn.moovin.com.br/project/manager-panel/img/logo-moovin.svg'
-
 	return (
-		<div className='App'>
-			<img alt='Logo da Moovin' src={logoMoovin} />
-		</div>
+		<>
+		<Header/>
+		</>
 	)
 }
 
