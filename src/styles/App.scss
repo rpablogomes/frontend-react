@@ -7,15 +7,17 @@ header {
     width: 100%;
 }
 
-.list {
+.table {
     background-color: white;
     display: grid;
+    text-align: left;
     grid-template-columns: auto;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
     padding: 20px;
     margin: 20px;
-    width: auto
+    width: auto;
+    border-radius: 5px;
+    border-spacing: 0;
 }
 
 .listItens {
@@ -23,18 +25,40 @@ header {
     align-items: center;
     justify-content: center;
     margin: auto;
-    border-radius: 5px;
-    padding: 15px;
+    padding: 40px;
     width: 100%;
 }
 
 .title {
     background-color: white;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold
+}
+
+table {
+    border-spacing: 0;
+    border-radius: inherit;
+}
+
+.titleTable {
+    border: none;
+    border-spacing: none;
+    background-color: #f0efef;
+    margin: 10px
+}
+
+th {
+    padding: 10px;
     margin: auto;
-    border-radius: 5px;
-    padding: 15px;
-    width: 100%;
+    border-radius: inherit;
+}
+
+.content {
+    border: 1px solid #f0efef;
+}
+
+td {
+    padding: 10px;
+    border: 1px 0 solid #f0efef;
 }
