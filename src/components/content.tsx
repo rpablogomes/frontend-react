@@ -4,16 +4,45 @@ import '../styles/App.scss'
 const list: React.FC = () => {
 
     return (
-        <table className="content">
+        <div className="content">
+        <table >
             <tr className="titleTable">
                 <th>Titulo</th>
                 <th>Conteúdo</th>
             </tr>
-            <tr>
+            <tr className="tableItems">
                 <td>teste</td>
                 <td>teste</td>
             </tr>
-            <tr>
+            <tr className="tableItems">
+                <td>teste</td>
+                <td>teste</td>
+            </tr>
+            <tr className="tableItems">
+                <td>teste</td>
+                <td>teste</td>
+            </tr>
+            <tr className="tableItems">
+                <td>teste</td>
+                <td>teste</td>
+            </tr>
+            <tr className="tableItems">
+                <td>teste</td>
+                <td>teste</td>
+            </tr>
+            <tr className="tableItems">
+                <td>teste</td>
+                <td>teste</td>
+            </tr>
+            <tr className="tableItems">
+                <td>teste</td>
+                <td>teste</td>
+            </tr>
+            <tr className="tableItems">
+                <td>teste</td>
+                <td>teste</td>
+            </tr>
+            <tr className="tableItems">
                 <td>teste</td>
                 <td>teste</td>
             </tr>
@@ -23,6 +52,9 @@ const list: React.FC = () => {
            
             */}
         </table>
+        <div className="pagination">fsdfsd</div>
+        </div>
+
     )
 }
 

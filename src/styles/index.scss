@@ -1,8 +1,9 @@
-body {
+* {
     padding: 0;
-    margin: 0;
-    background-color: #f0efef;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    color: #545454;
+    margin: 0
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F0EFEF 0% 0% no-repeat padding-box;
 }
