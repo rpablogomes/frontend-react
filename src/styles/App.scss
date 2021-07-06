@@ -113,10 +113,16 @@ table th:last-child {
     border-radius: 0 5px 0 0
 }
 
-.pagination {
+.bottom {
     padding: 14px 40px;
+    display: grid;
+    grid-template-columns: 30% 1fr;
     border-right: 1px solid #f0efef;
     border-left: 1px solid #f0efef;
     border-bottom: 1px solid #f0efef;
     border-radius: 0 0 5px 5px;
+}
+
+.pagination {
+    text-align: right;
 }
