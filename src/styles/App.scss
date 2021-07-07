@@ -97,18 +97,18 @@ header {
         display: grid;
         justify-content: space-between;
         grid-template-columns: auto auto;
+        .numberELements {
+            cursor: pointer;
+            padding: 10px;
+            align-items: center;
+            font-size: 15px;
+        }
         .pagination {
             display: flex;
             grid-template-columns: 15% 70% 15%;
             width: auto;
             align-items: center;
             font-size: 15px;
-            .numberELements {
-                cursor: pointer;
-                padding: 10px;
-                align-items: center;
-                font-size: 15px;
-            }
             .paginationIndice {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
