@@ -4,7 +4,7 @@ import '../styles/App.scss'
 const title: React.FC = () => {
 
 	return (
-			<div className="title">Ultimas Postagens</div>
+			<div className="title">Últimas Postagens</div>
 	)
 }
 

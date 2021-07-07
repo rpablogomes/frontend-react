@@ -10,7 +10,6 @@ const list: React.FC = () => {
 		<div className="table">
 			<Title />
 			<Content />
-
 		</div>
 	)
 }
